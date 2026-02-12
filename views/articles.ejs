@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>All Articles Page</h1><hr>
+    <div
+    style="background:rgb(197, 145, 41);
+            color: rgb(255, 255, 255);
+            padding : 20px;">
+    <% for( let art of allArticles ) { %>
+        <h1
+        style="color: antiquewhite;
+            padding: 3px"
+        ><%= art.title %></h1>
+        <br>
+        <h3><%=art.body%></h3><hr>
+          <%  } %>
+    </div>
+</body>
+</html>
