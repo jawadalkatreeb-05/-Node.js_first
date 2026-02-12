@@ -43,7 +43,7 @@ app.get('/numbers',(req,res) => {
 });
 
 app.get("/",(req,res)=>{
-    res.send('heloooo for nothiind');
+    res.send('Welcome in Node.js ');
 })
 
 
